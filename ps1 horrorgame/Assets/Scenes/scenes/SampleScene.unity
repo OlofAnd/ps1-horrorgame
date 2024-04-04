@@ -630,8 +630,8 @@ MonoBehaviour:
   _TextureWarpingMode: 0
   _VertexGridResolution: 10
   _UseRetroVertexLighting: 1
-  _RetroLightingNormalFactor: 1
-  _RetroLightFalloffStart: 0
+  _RetroLightingNormalFactor: 0.458
+  _RetroLightFalloffStart: 0.133
   _FlatShadingMode: 0
   _TriangleSortMode: 0
   _DepthDebugView: 0
