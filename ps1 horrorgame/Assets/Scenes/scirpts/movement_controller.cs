@@ -15,7 +15,7 @@ public class movement_controller : MonoBehaviour
     void Update()
     {
         // Get input from W and S keys
-        float verticalInput = Input.GetAxis("Vertical");
+        float verticalInput = Input.GetAxisRaw("Vertical");
 
         // Calculate movement amount based on input and speed
         float movementAmount = verticalInput * movementSpeed * Time.deltaTime;

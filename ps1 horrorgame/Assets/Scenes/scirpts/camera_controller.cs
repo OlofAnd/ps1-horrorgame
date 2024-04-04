@@ -25,7 +25,7 @@ public class camera_controller : MonoBehaviour
         }
 
         // Get input from A and D keys
-        float horizontalInput = Input.GetAxis("Horizontal");
+        float horizontalInput = Input.GetAxisRaw("Horizontal");
 
         // Calculate rotation amount based on input and speed
         float rotationAmount = horizontalInput * rotationSpeed * Time.deltaTime;
